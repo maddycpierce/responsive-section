@@ -26,7 +26,6 @@ section {
 }
 
 .wrapper {
-  padding: 1.3rem;
   max-width: 45em;
   margin: 0 auto;
 }
@@ -50,17 +49,16 @@ section .wrapper {
   width: 100%;
 }
 
-.section-letter
+.section-letter,
 .section-icon {
   float: left;
-  max-width: 14%;
 }
 
 .section-body {
   padding: 1.3rem;
 }
 
-.section h2 {
+section h2 {
   font-weight: bold;
   margin: 0;
   font-size: 1.5rem;
@@ -134,7 +132,17 @@ section p {
 
   h1,
   p {
-    margin: 0 0 1.5rem;
+    margin: 1.3rem;
+  }
+
+  .section-body {
+    padding-top: 1.3rem;
+    padding-left: 0;
+  }
+
+  .section-letter,
+  .section-icon {
+    padding: 0;
   }
 
 }
